@@ -2,7 +2,7 @@
 ### Group Project Assignment - YouTube Channel
 
 rm(list=ls())
-setwd("/Users/lexyc/Desktop/692\ Marketing\ analytics/Assignment/group")
+
 
 devtools::install_github("lchiffon/wordcloud2")
 
