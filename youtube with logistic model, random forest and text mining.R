@@ -202,7 +202,7 @@ test.yt=yt[-rv,]
 
 #random guess
 
-p=sum(train.yt$GradeRange=="A")/nrow(train.yt)#a naive guess Fraud probability based on percentage
+p=sum(train.yt$GradeRange=="A")/nrow(train.yt)#a naive guess Grade A probability based on percentage
 p
 rg.pred <- sample(c("A", "B"), nrow(train.yt), prob=c(1-p,p),replace = TRUE)#random guess prediction
 str(rg.pred)
